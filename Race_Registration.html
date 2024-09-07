@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<link rel = "stylesheet", href = "Race Registration CSS.css">
+<head>
+    <h1>Race Registration!</h1>
+    <form action = "Registraton">
+        <div>
+            <label for = "First Name">First Name</label>
+            <input id = "First Name", required>
+            <label for = "Last Name">Last Name</label>
+            <input id = "Last Name", required>
+        </div>
+        <div>
+            <p>Select a Race:</p>
+            <input id = "Fun Run", type = "radio", name = "RunLength", required>
+            <label for = "Fun Run">Full Run 5k</label><br>
+            <input id = "Half Marathon", type = "radio", name = "RunLength">
+            <label for = "Half Marathon">Half Marathon</label><br>
+            <input id = "Full Marathon", type = "radio", name = "RunLength">
+            <label for = "Full Marathon">Full Marathon</label><br>
+            <br>
+        </div>
+        <div>
+            <label for = "Email">Email</label>
+            <input id = "Email", name = "Email", type = "Text", required>
+            <label for = "Password">Password</label>
+            <input id = "Password", name = "Password", type = "password", required>
+        </div>
+        <div>
+            <label for = "Age Select">Select Age Group</label>
+            <select id = "Age Select", name = "Age Select", placeholder = "">
+                <option value = "Kids">Under 18</option>
+                <option value = "Young Adults">18-30</option>
+                <option value = "Adults">30+</option>
+            </select>
+        </div>
+        <button>Register</button>
+    </form>
+</head>
